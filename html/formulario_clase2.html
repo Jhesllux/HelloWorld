@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mi primer formulario</title>
+    </head>
+    <body><center>
+        <form action="envioformulario.php" method="post">
+            <h1>Registro de Usuario</h1>
+            <fieldset>
+                <legend>Datos Personales</P></legend>
+            <div>
+                <label>Cédula</label>
+                <br>
+                <input name="cédula" type="number" placeholder="Digite su Cédula" maxlength="10" required>
+            </div>
+        <br>
+            <div>
+                <label>Nombre</label>
+                <br>
+                <input name="nombre" type="text" placeholder="Digite su Nombre" required>
+            </div>
+        <br>
+            <div>
+                <label>Sexo</label>
+                <br>
+                <label>Hombre</label>
+                <input name="sexo" type="radio" value="Hombre">
+                <label>Mujer</label>
+                <input name="sexo" type="radio" value="Mujer">
+            </div>
+        <br>
+            <div>
+                <label>Fecha de Nacimiento</label>
+                <br>
+                <input name="fechanac" type="date" placeholder="Seleccione Fecha de Nacimiento" required>
+            </div>
+        <br>
+            <div>
+                <label>Ciudad de Nacimento</label>
+                <br>
+                <select name="ciudadnacimiento" required>
+                    <option value="">Seleccione Ciudad</option>
+                    <option value="Medellín">Medellín</option>
+                    <option value="Bogotá">Bogotá</option>
+                    <option value="Cali">Cali</option>
+                    <option value="Barranquilla">Barranquilla</option>
+                    <option value="Pereira">Pereira</option>
+                    <option value="Pereira">Taraza</option>
+                </select>
+            </div>
+        <br>
+            <div>
+                <label>Numero de Telefono</label>
+                <br>
+                <input name="telefono" type="tel" placeholder="Digite su numero" maxlength="10" required>
+            </div>
+        <br>
+            <div>
+                <label>Dirección de Residencia</label>
+                <br>
+                <input name="direcciónderesidencia" type="text" placeholder="Digite tu Dirección" required>
+            </div>
+        <br>
+            <div>
+                <label>Correo Electrónico</label>
+                <br>
+                <input name="corre" type="email" placeholder="Digite su Correo" required>
+            </div>
+        <br><br>    
+            <div>
+                <button type="submit">Enviar Datos</button>
+                <button type="reset">Eliminar Datos</button>
+            </div>
+          </fieldset>
+        </form>
+    </center></body>
+</html>

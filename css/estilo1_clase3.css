@@ -1,0 +1,72 @@
+body {
+
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    background-image: url("/image/wallhaven.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+h1 {
+    color:black;
+    background-color:rgb(13, 27, 42);
+    text-align: center;
+
+}
+
+.intro {
+    color: black;
+    text-align: center;
+    background-color:rgb(253, 240, 213);
+    
+}
+
+a:hover {
+    color: orange;
+}
+
+a {
+    color: black;
+    background-color: rgb(253, 240, 213);
+}
+
+#contenido {
+    background-color: rgb(102, 155, 188);
+    width:"100%";
+    border: 10px solid rgb(0, 48, 73);
+    padding: 20px;
+    margin: 20px solid black;
+}
+
+
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.playfair-display {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 1.6;
+}
+
+
+.playfair-display-regular400 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.img {
+    width:"100%";
+    border: 2px solid rgb(0, 48, 73);
+}

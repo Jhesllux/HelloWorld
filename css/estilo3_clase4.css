@@ -1,0 +1,20 @@
+.container {
+    display: grid;
+    column-gap: 100px;
+    row-gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: rgb(12, 80, 148);
+    padding: 10px;
+
+  }
+  
+  .container > div {
+    background-color: gray;
+    border: 10px solid white;
+    padding: 20px;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: center;
+  }
+
